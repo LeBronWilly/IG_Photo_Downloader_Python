@@ -1,0 +1,64 @@
+1661669216764	geckodriver	INFO	Listening on 127.0.0.1:53918
+1661669219868	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-notifications" "--remote-debugging-port" "53919" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileenPpWN"
+1661669220408	Marionette	INFO	Marionette enabled
+1661669220415	Marionette	INFO	Listening on port 53931
+WebDriver BiDi listening on ws://localhost:53919
+Read port: 53931
+1661669220540	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileenPpWN\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53919/devtools/browser/91000930-b71a-4257-8968-e4b5f48f4915
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 842: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 842: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 1176: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 1176: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 1176: unreachable code after return statement
+1661669310325	Marionette	INFO	Stopped listening on port 53931
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661669321120	geckodriver	INFO	Listening on 127.0.0.1:54005
+1661669324192	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-notifications" "--remote-debugging-port" "54006" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilekdRl6k"
+1661669324654	Marionette	INFO	Marionette enabled
+1661669324659	Marionette	INFO	Listening on port 54016
+WebDriver BiDi listening on ws://localhost:54006
+Read port: 54016
+1661669324894	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofilekdRl6k\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54006/devtools/browser/3606da40-3afe-41a8-8a7b-9aafc8af8bfc
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 842: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 842: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 1176: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 1176: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 1176: unreachable code after return statement
+1661669338987	Marionette	INFO	Stopped listening on port 54016
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+1661669490486	geckodriver	INFO	Listening on 127.0.0.1:54252
+1661669493546	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--disable-notifications" "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15" "--remote-debugging-port" "54253" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileJ5xqua"
+1661669493978	Marionette	INFO	Marionette enabled
+1661669493984	Marionette	INFO	Listening on port 54264
+Read port: 54264
+WebDriver BiDi listening on ws://localhost:54253
+1661669494084	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofileJ5xqua\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54253/devtools/browser/cf805526-e133-4beb-ac13-88ba05ae73dd
+1661669519498	geckodriver	INFO	Listening on 127.0.0.1:54297
+1661669522561	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--user-agent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/12.0.3 Safari/605.1.15" "--remote-debugging-port" "54298" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile5HEuJB"
+1661669523141	Marionette	INFO	Marionette enabled
+1661669523146	Marionette	INFO	Listening on port 54308
+WebDriver BiDi listening on ws://localhost:54298
+Read port: 54308
+1661669523391	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\user\\AppData\\Local\\Temp\\rust_mozprofile5HEuJB\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54298/devtools/browser/e72c7893-dfa5-4c02-81bd-093e5921fcdb
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 842: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 842: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 1176: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 1176: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 1176: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iLH_4/y9/l/zh_TW/Um3gYmfH3FL.js?_nc_x=Ij3Wp8lg5Kz, line 40: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 842: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 842: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 1176: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 1176: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3ipC24/yW/l/zh_TW/8_Pq7_zcvwg.js?_nc_x=Ij3Wp8lg5Kz, line 1176: unreachable code after return statement
+JavaScript warning: https://static.cdninstagram.com/rsrc.php/v3iLH_4/y9/l/zh_TW/Um3gYmfH3FL.js?_nc_x=Ij3Wp8lg5Kz, line 40: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+1661669547483	Marionette	INFO	Stopped listening on port 54308
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
