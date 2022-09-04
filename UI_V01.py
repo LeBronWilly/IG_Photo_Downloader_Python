@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'IG_Photo_Downloader_UI_V01iqcuKV.ui'
+## Form generated from reading UI file 'IG_Photo_Downloader_UI_V01KqdDKR.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -145,7 +145,7 @@ class Ui_IG_Photo_Downloader(object):
 "<html><head><meta name=\"qrichtext\" content=\"1\" /><style type=\"text/css\">\n"
 "p, li { white-space: pre-wrap; }\n"
 "</style></head><body style=\" font-family:'Arial'; font-size:20pt; font-weight:400; font-style:normal;\">\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-family:'PMingLiU'; font-size:22pt;\">kingjames</span></p></body></html>", None))
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\">kobebryant</p></body></html>", None))
         self.label_1.setText(QCoreApplication.translate("IG_Photo_Downloader", u"IG Username: ", None))
         self.label_7.setText(QCoreApplication.translate("IG_Photo_Downloader", u"Post Dates: ", None))
         self.Date_ComboBox.setItemText(0, QCoreApplication.translate("IG_Photo_Downloader", u"Choose Date to Download", None))
