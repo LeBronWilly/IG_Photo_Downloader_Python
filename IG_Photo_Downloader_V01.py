@@ -56,7 +56,6 @@ class AppWindow(QWidget):
         elif username == "":
             QMessageBox.information(self, "Error", "Please enter the target's IG username")
         else:
-            ig.login(account, password)
             try:
                 ig.login(account, password)
             except Exception:
