@@ -4,6 +4,11 @@ Created on 08/28, 2020
 @author: Willy Fang
 
 """
+# https://instaloader.github.io/index.html
+# https://stackoverflow.com/questions/71182479/download-only-instagram-videos-with-instaloader
+# https://instaloader.github.io/module/structures.html#posts
+# https://stackoverflow.com/questions/71182479/download-only-instagram-videos-with-instaloader
+# https://samjason515.medium.com/超簡單instagram-爬蟲套件-instaloader-ad3ec7016fa2
 # https://shengyu7697.github.io/python-pyqt-qmessagebox/
 # https://pythonprogramminglanguage.com/pyqt5-message-box/
 # https://steam.oxxostudio.tw/category/python/basic/try-except.html
@@ -14,6 +19,7 @@ import instaloader
 import os
 import glob
 from PySide2.QtWidgets import QMessageBox
+import shutil
 
 ig = instaloader.Instaloader()
 
@@ -44,6 +50,7 @@ class AppWindow(QWidget):
         elif username == "":
             QMessageBox.information(self, "Error", "Please enter the target's IG username")
         else:
+            ig.login(account, password)
             try:
                 ig.login(account, password)
             except Exception:
@@ -66,8 +73,9 @@ class AppWindow(QWidget):
                         lambda: self.Download_Button_Clicked(self.ui.posts, self.ui.dates_list, username))
 
     def Download_Button_Clicked(self, posts, dates_list, username):
-        ig.download_post(posts[dates_list.index(self.ui.Date_ComboBox.currentText())], username)
-        delete_list = glob.glob(username + '/*.json.xz')
+        ig.download_post(post=posts[dates_list.index(self.ui.Date_ComboBox.currentText())],
+                         target=username)
+        delete_list = glob.glob("Downloaded Photo/"+username + '/*.json.xz')
         for d in delete_list:
             os.remove(d)
 
