@@ -12,6 +12,12 @@ Created on 08/28, 2020
 # https://shengyu7697.github.io/python-pyqt-qmessagebox/
 # https://pythonprogramminglanguage.com/pyqt5-message-box/
 # https://steam.oxxostudio.tw/category/python/basic/try-except.html
+# https://stackoverflow.com/questions/11625062/cant-remove-a-folder-with-os-remove-windowserror-error-5-access-is-denied
+# https://stackoverflow.com/questions/45134102/shutil-move-if-directory-already-exists
+# https://docs.python.org/3/library/shutil.html
+# https://linuxhint.com/overwrite-file-python/
+# https://blog.gtwang.org/programming/python-howto-check-whether-file-folder-exists/
+# https://datatofish.com/move-file-python/
 
 
 from UI_V01 import *
@@ -75,9 +81,16 @@ class AppWindow(QWidget):
     def Download_Button_Clicked(self, posts, dates_list, username):
         ig.download_post(post=posts[dates_list.index(self.ui.Date_ComboBox.currentText())],
                          target=username)
-        delete_list = glob.glob("Downloaded Photo/"+username + '/*.json.xz')
+        delete_list = glob.glob(username + '/*.json.xz')
         for d in delete_list:
             os.remove(d)
+        if not os.path.exists("Downloaded Photo/"+username):
+            shutil.move(username, "Downloaded Photo/"+username)
+        else:
+            for file_path in glob.glob(username + '/*'):
+                shutil.copy2(file_path, "Downloaded Photo/" + username)
+            shutil.rmtree(username)
+        QMessageBox.information(self, "Success", "Download Success ^o^")
 
     def Date_ComboBox_Select_Change(self):
         if self.ui.Date_ComboBox.currentText() != "Choose Date to Download":
