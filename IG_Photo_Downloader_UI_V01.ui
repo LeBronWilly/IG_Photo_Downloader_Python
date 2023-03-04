@@ -332,7 +332,7 @@ p, li { white-space: pre-wrap; }
     <string>You have to login to download IG photos</string>
    </property>
    <property name="textFormat">
-    <enum>Qt::MarkdownText</enum>
+    <enum>Qt::AutoText</enum>
    </property>
    <property name="alignment">
     <set>Qt::AlignCenter</set>

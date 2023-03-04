@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'IG_Photo_Downloader_UI_V01KqdDKR.ui'
+## Form generated from reading UI file 'IG_Photo_Downloader_UI_V01YHMFKj.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -118,7 +118,7 @@ class Ui_IG_Photo_Downloader(object):
         font6.setBold(True)
         font6.setWeight(75)
         self.label_4.setFont(font6)
-        self.label_4.setTextFormat(Qt.MarkdownText)
+        self.label_4.setTextFormat(Qt.AutoText)
         self.label_4.setAlignment(Qt.AlignCenter)
         self.label_1.raise_()
         self.label_7.raise_()
