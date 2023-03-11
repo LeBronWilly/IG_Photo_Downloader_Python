@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'IG_Photo_Downloader_UI_V01YHMFKj.ui'
+## Form generated from reading UI file 'IG_Photo_Downloader_UI_V01xoPmDm.ui'
 ##
 ## Created by: Qt User Interface Compiler version 5.15.2
 ##
@@ -20,7 +20,7 @@ class Ui_IG_Photo_Downloader(object):
         IG_Photo_Downloader.resize(967, 544)
         self.Username_Text = QTextEdit(IG_Photo_Downloader)
         self.Username_Text.setObjectName(u"Username_Text")
-        self.Username_Text.setGeometry(QRect(230, 230, 465, 51))
+        self.Username_Text.setGeometry(QRect(230, 250, 465, 51))
         font = QFont()
         font.setFamily(u"Arial")
         font.setPointSize(20)
@@ -31,7 +31,7 @@ class Ui_IG_Photo_Downloader(object):
         self.Username_Text.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.label_1 = QLabel(IG_Photo_Downloader)
         self.label_1.setObjectName(u"label_1")
-        self.label_1.setGeometry(QRect(30, 240, 200, 31))
+        self.label_1.setGeometry(QRect(30, 260, 200, 31))
         font1 = QFont()
         font1.setFamily(u"Arial")
         font1.setPointSize(16)
@@ -55,7 +55,7 @@ class Ui_IG_Photo_Downloader(object):
         self.Search_Button = QPushButton(IG_Photo_Downloader)
         self.Search_Button.setObjectName(u"Search_Button")
         self.Search_Button.setEnabled(True)
-        self.Search_Button.setGeometry(QRect(740, 240, 181, 31))
+        self.Search_Button.setGeometry(QRect(740, 260, 181, 31))
         font3 = QFont()
         font3.setFamily(u"Arial")
         font3.setPointSize(14)
@@ -74,7 +74,7 @@ class Ui_IG_Photo_Downloader(object):
         self.Refresh_Button.setFont(font3)
         self.Account_Text = QTextEdit(IG_Photo_Downloader)
         self.Account_Text.setObjectName(u"Account_Text")
-        self.Account_Text.setGeometry(QRect(30, 110, 431, 41))
+        self.Account_Text.setGeometry(QRect(30, 100, 431, 41))
         font4 = QFont()
         font4.setFamily(u"Arial")
         font4.setPointSize(16)
@@ -85,17 +85,17 @@ class Ui_IG_Photo_Downloader(object):
         self.Account_Text.setHorizontalScrollBarPolicy(Qt.ScrollBarAlwaysOff)
         self.label_2 = QLabel(IG_Photo_Downloader)
         self.label_2.setObjectName(u"label_2")
-        self.label_2.setGeometry(QRect(30, 70, 301, 31))
+        self.label_2.setGeometry(QRect(30, 60, 301, 31))
         self.label_2.setFont(font1)
         self.label_2.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
         self.label_3 = QLabel(IG_Photo_Downloader)
         self.label_3.setObjectName(u"label_3")
-        self.label_3.setGeometry(QRect(490, 70, 301, 31))
+        self.label_3.setGeometry(QRect(490, 60, 301, 31))
         self.label_3.setFont(font1)
         self.label_3.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
         self.Password_Text = QLineEdit(IG_Photo_Downloader)
         self.Password_Text.setObjectName(u"Password_Text")
-        self.Password_Text.setGeometry(QRect(490, 110, 431, 41))
+        self.Password_Text.setGeometry(QRect(490, 100, 431, 41))
         self.Password_Text.setFont(font2)
         self.Password_Text.setEchoMode(QLineEdit.Password)
         self.label_6 = QLabel(IG_Photo_Downloader)
@@ -111,7 +111,7 @@ class Ui_IG_Photo_Downloader(object):
         self.label_6.setAlignment(Qt.AlignJustify|Qt.AlignVCenter)
         self.label_4 = QLabel(IG_Photo_Downloader)
         self.label_4.setObjectName(u"label_4")
-        self.label_4.setGeometry(QRect(240, 160, 471, 31))
+        self.label_4.setGeometry(QRect(150, 160, 651, 61))
         font6 = QFont()
         font6.setFamily(u"Arial")
         font6.setPointSize(12)
@@ -162,6 +162,6 @@ class Ui_IG_Photo_Downloader(object):
         self.label_2.setText(QCoreApplication.translate("IG_Photo_Downloader", u"Your IG Account: ", None))
         self.label_3.setText(QCoreApplication.translate("IG_Photo_Downloader", u"Your IG Password: ", None))
         self.label_6.setText(QCoreApplication.translate("IG_Photo_Downloader", u"Developed by Willy Fang", None))
-        self.label_4.setText(QCoreApplication.translate("IG_Photo_Downloader", u"You have to login to download IG photos", None))
+        self.label_4.setText(QCoreApplication.translate("IG_Photo_Downloader", u"<html><head/><body><p>You have to login to download IG photos</p><p>(Please do not browse IG when using the application!)</p></body></html>", None))
     # retranslateUi
 

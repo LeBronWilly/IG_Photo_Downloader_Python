@@ -26,6 +26,7 @@ import os
 import glob
 from PySide2.QtWidgets import QMessageBox
 import shutil
+import urllib.request
 
 ig = instaloader.Instaloader()
 
@@ -39,6 +40,13 @@ class AppWindow(QWidget):
         self.show()
 
     def setup_control(self):
+        self.ui.IG_img = QPixmap()
+        url = 'https://raw.githubusercontent.com/LeBronWilly/IG_Photo_Downloader_Python/main/IG_icon.png'
+        img_data = urllib.request.urlopen(url).read()
+        self.ui.IG_img.loadFromData(img_data)
+        self.ui.IG_img = self.ui.IG_img.scaled(75, 75)
+        self.setWindowIcon(QIcon(self.ui.IG_img))
+
         # profile = instaloader.Profile.from_username(ig.context, ig_username)
         # posts = list(profile.get_posts())
         # dates_list = [post.date.strftime("%Y/%m/%d %H:%M:%S") for post in posts]
