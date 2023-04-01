@@ -6,3 +6,6 @@
 
 Download Application (.exe): [here](https://github.com/LeBronWilly/IG_Photo_Downloader_Python/releases)
 
+User Interface: <br>
+<img src="https://user-images.githubusercontent.com/38752414/229268695-5667c26d-9518-4fc8-996f-cddc0c12508d.jpg" width=70% height=70%>
+
